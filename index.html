@@ -23,23 +23,41 @@
 				<h1 id="titulo">¿TE GUSTA EL TÉ?</h1>
 			
 			<div class="name-container">
-            <label for="name" class="sr-only">Nombre</label><br>
-            <input type="text" id="name" class="form-control"
+            <label for="name" >Nombre</label><br>
+            <input type="text" id="name" 
             placeholder="Ingrese su nombre">
           </div>
           <div class="email-container">
-            <label for="email" class="sr-only">Email</label><br>
-            <input type="email"  id="email" class="form-control"
+            <label for="email" >Email</label><br>
+            <input type="email"  id="email" 
             placeholder="Ingrese su Email">
           </div>
           <div class="direccion-container">
-            <label for="direccion" class="sr-only">Dirección</label><br>
-            <input type="text" id="input-direccion" class="form-control"  placeholder="Ingrese su dirección" autofocus="">
+            <label for="direccion" >Dirección</label><br>
+            <input type="text" id="direccion" "  placeholder="Ingrese su dirección" >
+          </div>
+          <div class="select-container">
+          	<label>Té favorito</label><br>
+            <select id="tevariedades" class="required">
+              <option value="0">Selecciona tu té</option>
+              <option value="1">Negro</option>
+              <option value="2">Verde</option>
+              <option value="3">Rojo</option>
+              <option value="4">Blanco</option>
+              <option value="5">Oolong</option>
+            </select>
+          </div>
+
+          <div class="checkbox ">
+            <label>
+              <input type="checkbox" value="remember-me">
+              <span>Deseo recibir muestras gratis</span>
+            </label>
           </div>
 			<div class="newsletter">
 				
 				
-				<button id="subscribirse">Subscríbete a nuestro newsletter</button>
+				<button id="subscribirse" onclick="subscribirse()">Subscríbete a nuestro newsletter</button>
 			</div>
 			</form>
 		</section>
@@ -91,5 +109,6 @@
 		<footer>
 			<p>Té Encanto : Av. Italia 1317, Providencia</p>
 		</footer>
+		<script src="assets/js/main.js"></script>
 	</body>
 </html>

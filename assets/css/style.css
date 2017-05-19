@@ -61,7 +61,7 @@ Código Hexadecimal gris footer: #3B3B3B
     font-size: 26px;
 }
 
-.name-container ,.email-container, .direccion-container{
+.name-container ,.email-container, .direccion-container, .select-container{
 	
 	padding: 16px;
 }
@@ -69,12 +69,25 @@ Código Hexadecimal gris footer: #3B3B3B
 input{
 	
 	margin-bottom: -1px;
+	margin-top: 13px;
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
 	border-radius: 6px;
     width: 175px;
     height: 27px;
     border: 1px solid #ccc;
+    font-size: 15px;
+    text-align: center;
+    border-color: silver;
+}
+
+.checkbox label {
+	font-size: 15px;
+}
+
+.checkbox input{
+	margin-right: -138px;
+
 }
 
 label{
@@ -82,6 +95,15 @@ label{
 	color: white;
     font-family: 'Helvetica';
 }
+
+select{
+	width: 180px;
+    height: 31px;
+    border-color: silver;
+    font-size: 12px;
+	margin-top: 11px;
+}
+
 
 
 
