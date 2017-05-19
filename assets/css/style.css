@@ -4,10 +4,7 @@ Código Hexadecimal gris footer: #3B3B3B
 */
 
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: "Raleway";
+	d
 	font-size: 16px;
 }
 
@@ -45,6 +42,20 @@ Código Hexadecimal gris footer: #3B3B3B
 	font-size: 1.5em;
 	font-weight: bolder;
 	cursor: pointer;
+}
+
+/* Funcionalidad Newsletter */
+
+#titulo {
+	text-align: center;
+	color: white;
+	font-family: 'Helvetica';
+	padding-top: 33px;
+    font-size: 26px;
+}
+
+.name-container {
+	text-align: center;
 }
 
 /* Sección About */
