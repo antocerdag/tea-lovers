@@ -26,6 +26,13 @@ Código Hexadecimal gris footer: #3B3B3B
 /*Secciones fondo de color */
 .color {
 	background-color: #8EC641;
+	
+    padding-top: 10px;
+  	padding-bottom: 40px;
+ 	display: block;
+ 	position: relative;
+ 	text-align: center;
+
 }
 /* Newsletter*/
 .newsletter {
@@ -54,9 +61,29 @@ Código Hexadecimal gris footer: #3B3B3B
     font-size: 26px;
 }
 
-.name-container {
-	text-align: center;
+.name-container ,.email-container, .direccion-container{
+	
+	padding: 16px;
 }
+
+input{
+	
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border-radius: 6px;
+    width: 175px;
+    height: 27px;
+    border: 1px solid #ccc;
+}
+
+label{
+	font-size: 20px;    
+	color: white;
+    font-family: 'Helvetica';
+}
+
+
 
 /* Sección About */
 
